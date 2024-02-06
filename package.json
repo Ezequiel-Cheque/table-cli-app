@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/app.logic.ts -b 5 -s -l 20",
-    "dev:nodemon": "nodemon",
+    "dev:nodemon": "nodemon -b 7",
     "build": "rimraf ./dist && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
