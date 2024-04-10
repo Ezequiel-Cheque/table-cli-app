@@ -21,4 +21,5 @@ async function main() {
     } = yarg;
 
     ServerApp.run({base, limit, showTable, name, destination});
+
 }
